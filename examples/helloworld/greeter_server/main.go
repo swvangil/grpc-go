@@ -45,6 +45,9 @@ func (s *server) SayHello(ctx context.Context, in *pb.HelloRequest) (*pb.HelloRe
 	return &pb.HelloReply{Message: "Hello " + in.GetName()}, nil
 }
 
+// stuff for master
+// stuff for master
+
 // stuff he
 //re too
 
